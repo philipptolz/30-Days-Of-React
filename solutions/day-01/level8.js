@@ -117,17 +117,9 @@ console.log("MERN stack developers:", usersMernStack);
 
 const copyUsers = Object.assign({}, users);
 copyUsers.Philipp = {
-    email: "philipp@philipp.com",
-    skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "MongoDB",
-      "Express",
-      "React",
-      "Node",
-    ],
-    age: 18,
-    isLoggedIn: true,
-    points: 999,
+  email: "philipp@philipp.com",
+  skills: ["HTML", "CSS", "JavaScript", "MongoDB", "Express", "React", "Node"],
+  age: 18,
+  isLoggedIn: true,
+  points: 999,
 };
