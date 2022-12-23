@@ -31,42 +31,42 @@ function bmi(weight, height) {
 function checkSeason(month) {
   switch (month) {
     case "january":
-      return("Winter");
+      return "Winter";
       break;
     case "february":
-        return("Winter");
+      return "Winter";
       break;
     case "march":
-        return("Spring");
+      return "Spring";
       break;
     case "april":
-      return("Spring");
+      return "Spring";
       break;
     case "may":
-      return("Spring");
+      return "Spring";
       break;
     case "june":
-      return("Summer");
+      return "Summer";
       break;
     case "july":
-      return("Summer");
+      return "Summer";
       break;
     case "august":
-      return("Summer");
+      return "Summer";
       break;
     case "july":
-      return("Autumn");
+      return "Autumn";
       break;
     case "september":
-      return("Autumn");
+      return "Autumn";
       break;
     case "october":
-      return("Autumn");
+      return "Autumn";
       break;
     case "december":
-      return("Winter");
+      return "Winter";
       break;
     default:
-      return("It is not a month.");
+      return "It is not a month.";
   }
 }
